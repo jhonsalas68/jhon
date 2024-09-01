@@ -9,4 +9,5 @@ class Paralelo extends Model
 {
     use HasFactory;
     protected $fillable=['nombre'];
+    //sexo 
 }
