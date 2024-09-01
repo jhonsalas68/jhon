@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('paralelos', function (Blueprint $table) {
             $table->id();
+            $table->String('nombre',1);
             $table->timestamps();
         });
     }
